@@ -446,6 +446,20 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: Outfit;
+
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: YoungSerif;
+
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf")
+      format("truetype");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -558,6 +572,16 @@ video {
   display: table;
 }
 
-.underline {
-  text-decoration-line: underline;
+.font-YoungSerif {
+  font-family: YoungSerif, serif;
+}
+
+.font-outfit-bold {
+  font-family: "Outfit", sans-serif;
+  font-variation-settings: "wght" 700;
+}
+
+.font-outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-variation-settings: "wght" 400;
 }
