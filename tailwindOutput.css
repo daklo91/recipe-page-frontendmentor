@@ -746,6 +746,10 @@ video {
   padding-bottom: 40px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-YoungSerif {
   font-family: "YoungSerif", serif;
 }
